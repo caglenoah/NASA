@@ -1,9 +1,14 @@
 header {
     height:450px;
     width: 850px;
-    background-image: url(nasaimg.jpeg);
 }
-img {
+
+#nasaimage{
+height: 450px;
+width:  850px;
+}
+
+#nasalogo {
     width: 30%;
 }
 
