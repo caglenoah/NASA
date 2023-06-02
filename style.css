@@ -1,0 +1,14 @@
+header {
+    height:450px;
+    width: 850px;
+    background-image: url(nasaimg.jpeg);
+}
+img {
+    width: 30%;
+}
+
+.logo { display: flex;
+align-items: end;
+height: 450px;
+
+}
