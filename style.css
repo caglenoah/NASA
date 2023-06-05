@@ -1,29 +1,21 @@
-header {
-    height:450px;
+.image {
+    border: black 4px;
+    height: 450px;
     width: 850px;
-}
+    background-image: url(nasalogo.jpeg);
+    display: flex;
+    }
+    .container { display: grid;
+        grid-template-columns: auto auto auto;
+        height: 324px;
+        width: 850px;
+        justify-content: space-between 20px;
+      
+    }
 
-#nasaimage{
-height: 450px;
-width:  850px;
-}
+   .boxone { display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
 
-body { display: flex;
-    flex-direction: column;
-    width: 324px;
-    height: 325px;
-  
-}
 
-.box1 { 
-    width: 270px;
-    height:324px;
-    align-items: end;
-}
-
-.box2 { display: flex;
-width: 270px;
-    height: 324px;
-    justify-content: center;
-
-}
+   }
