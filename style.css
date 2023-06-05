@@ -13,8 +13,6 @@ width:  850px;
 }
 
 .logo { display: flex;
-flex-wrap: wrap;
 justify-content: start;
 height: 450px;
-
 }
